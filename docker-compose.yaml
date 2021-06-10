@@ -2,7 +2,7 @@ version: "3.8"
 services:
     cuda-container:
         image: goyagoya5858/ml-img:latest
-        build: .
+        #build: .
         deploy:
             resources:
               reservations:
