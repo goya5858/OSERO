@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+    cuda-container:
+        image: goyagoya5858/ml-img:latest
+        build: .
+        deploy:
+            resources:
+              reservations:
+                devices:
+                  - capabilities: [gpu]
+        container_name: compose-test1
+        ports:
+            - "8888:8888"
+        #volumes:
+        #    - ".:/home/jovyan/work/"
