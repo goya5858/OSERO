@@ -13,3 +13,5 @@ services:
             - "8888:8888"
         #volumes:
         #    - ".:/home/jovyan/work/"
+        command: git config --global user.email "hokuzaki1203@gmail.com"
+        command: git config --global user.name "goya5858"
