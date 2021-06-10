@@ -1,4 +1,4 @@
+docker-compose.yaml
 drop_dups.csv
 SL_models/*
 sample_kifu.*
-docker-compose.yaml
